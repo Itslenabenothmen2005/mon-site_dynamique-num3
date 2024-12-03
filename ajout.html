@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mesures</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="controle.js"></script>
+  </head>
+  <body>
+    <form method="post" action="ajout.php" onsubmit="  return verif1()">
+      <fieldset>
+        <legend>AJOUT D'UNE RECLAMATION :</legend>
+        <table>
+          <tr>
+            <td><label>Tél Client :</label></td>
+            <td>
+              <input type="text" width="8" name="tel" id="tel" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>catégorie:</label></td>
+            <td>
+              <select id="list" name="list">
+                <option>choisis une option</option>
+                <option value="1">authentique</option>
+                <option value="2">branchement</option>
+                <option value="3">synochronisation</option>
+                <option value="4">autres</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Déscription:</label></td>
+            <td>
+              <textarea cols="50" rows="5" id="ta" name="desc"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" value="ajouter" id="bt1" />
+            </td>
+            <td><input type="reset" value="annuler" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

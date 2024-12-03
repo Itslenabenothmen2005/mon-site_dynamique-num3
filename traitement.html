@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mesures</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="controle.js"></script>
+  </head>
+  <body>
+    <form method="post" action="traitement.php" onsubmit="return verif2()">
+      <fieldset>
+        <legend>TRAITEMENT D'UNE RECLAMATION :</legend>
+        <table>
+          <tr>
+            <td><label>Tél Client :</label></td>
+            <td>
+              <input type="number" width="8" name="tel" id="tel" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Date réparation :</label></td>
+
+            <td>
+              <input type="date" name="daterep" id="daterep" />
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td><input type="reset" value="Annuler" /></td>
+            <td><input type="submit" value="Valider" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

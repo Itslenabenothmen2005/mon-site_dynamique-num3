@@ -1,0 +1,74 @@
+#img1 {
+  width: 10vw;
+  height: 100px;
+  float: left;
+}
+#img2 {
+  width: 10vw;
+  height: 100px;
+  float: right;
+}
+div {
+  width: 5vw;
+  height: 50px;
+  border-radius: 180px;
+  background-color: blue;
+ float: left;
+}
+div:hover{
+    transform:translateX(1000%);
+    background-color: aquamarine;
+    transition: all;
+    transition-duration:10s;
+  
+}
+
+
+
+iframe{
+    display: block;
+    width: 50vw;
+    border: none;
+    margin:auto;
+    
+
+}
+#zone2{
+    height:60vh ;
+}
+header{
+    background-color: khaki;
+    width: 96vw;
+    
+}
+nav{
+    float: left;
+    width: 19vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: khaki;
+
+}
+section{
+    float: left;
+    width: 77vw;
+    height: 70vh;
+    background-color: lightgoldenrodyellow;
+}
+form{
+    width: 150vw;
+}
+label,legend{
+    font-size: large;
+    color: navy;
+}
+input,textarea{
+    background-color: paleturquoise;
+}
+#f{
+    height: 680px;
+    width: 1000px;
+}
